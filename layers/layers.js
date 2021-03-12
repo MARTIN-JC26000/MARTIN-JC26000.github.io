@@ -4,7 +4,7 @@ var wms_layers = [];
 
 var lyr_SCAN25TOPOWM052020_0 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "https://wxs.ign.fr/ng67jx4fm6qhx3qv5ejwoo2t/geoportail/r/wms",
+                              url: "https://wxs.ign.fr/catalogue/geoportail/csw?service=CSW&version=2.0.2&request=GetRecordById&Id=IGNF_SCAN25r_2-0.xml",
     attributions: ' ',
                               params: {
                                 "LAYERS": "SCAN25TOPO_PYR-JPEG_WLD_WM",
